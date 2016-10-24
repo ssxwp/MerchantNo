@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroudcolor"
+    tools:context="com.qingyuan.tianya.merchant.activity.OrderActivity">
+    <RelativeLayout
+        android:id="@+id/ac_order_rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.qingyuan.tianya.merchant.view.HeaderView
+            android:id="@+id/ac_order_head"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:middleText="订单">
+
+        </com.qingyuan.tianya.merchant.view.HeaderView>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/ac_order_fram"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ac_order_rel"/>
+</RelativeLayout>

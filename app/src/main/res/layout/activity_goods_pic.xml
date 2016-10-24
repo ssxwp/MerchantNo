@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroudcolor"
+    tools:context="com.qingyuan.tianya.merchant.activity.GoodsPicActivity">
+    <com.qingyuan.tianya.merchant.view.HeaderView
+        android:id="@+id/goods_pic_head"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:rightText="保存">
+
+    </com.qingyuan.tianya.merchant.view.HeaderView>
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/goods_pic_head"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="4"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center" >
+    </GridView>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gridView1"
+        android:textColor="@color/lightgray"
+        android:text="(友情提示:只能添加6张图片,点击图片可以删除已添加图片)"
+        android:gravity="center" />
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</RelativeLayout>

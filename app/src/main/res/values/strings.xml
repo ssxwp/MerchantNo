@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">兔友商家</string>
+    <string name="dialog_text_content">确定退出？</string>
+    <string name="dialog_text_nativ">取消</string>
+    <string name="dialog_text_postiv">确定</string>
+    <string name="progress_dialog_text">加载中...</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

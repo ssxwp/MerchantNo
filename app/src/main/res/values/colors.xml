@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="headview">#FB357C</color>
+    <color name="textcolor">#696969</color>
+    <color name="backgroudcolor">#f2f1f1</color>
+    <color name="itembackground">#eae9e9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="linghtgray">#bcbbbb</color>
+    <color name="lightdark">#909090</color>
+    <color name="deepgrays">#8E8E8E</color>
+    <color name="deepgray">#999999</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#db2026</color>
+    <color name="shallowgreen">#8fd01e</color>
+    <color name="backgroundgray">#efefef</color>
+    <!-- <color name="light_gray">#717171</color> -->
+    <color name="yellow">#fec733</color>
+    <color name="light_yellow">#ffbe40</color>
+    <color name="orange_red">#ff8767</color>
+    <color name="bright_red">#f175d1</color>
+    <color name="cameo">#eeeeee</color>
+    <color name="mjtime">#cccbcb</color>
+    <color name="floralwhite">#FFFAF0</color>
+    <color name="light_gray">#ffeeeeee</color>
+    <color name="title">#888888</color>
+    <color name="menu_text_color">#515151</color>
+    <color name="lightblue">#add8e6</color>
+    <color name="mediumslateblue">#7B68EE</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="blues">#2894FF</color>
+    <color name="dodegerblue">#1E90ff</color>
+    <color name="bisque">#ffe4c4</color>
+    <color name="goldenrod">#FF4500</color>
+    <color name="darkorange">#FF8C00</color>
+    <color name="filtercolor">#eeeeee</color>
+    <!--     <color name="green">#00FF00</color> -->
+    <!--     <color name="green">#79FF79</color> -->
+    <!-- <color name="green">#00FF66</color> -->
+    <color name="green_valuecard">#97c842</color>
+    <color name="header_normal">#9A9999</color>
+    <color name="header_pressed">#c0392b</color>
+    <color name="crop_background">#737373</color>
+    <color name="window_bg">#88838B8B</color>
+    <color name="lightgray">#666666</color>
+    <color name="lightwrite">#F0FFF0</color>
+    <color name="timecolor">#aaaaaa</color>
+    <color name="province_line_border">#D0D0D0</color>
+
+    <color name="calute">#C6E2FF</color>
+
+    <color name="weixin">#62b900</color>
+
+    <!-- iconfont个人中心用到的颜色 -->
+    <color name="yaoqing">#66CCFF</color>
+    <color name="jinbi">#F8C700</color>
+    <color name="daijinjuan">#1CD363</color>
+    <color name="shoucang">#FF3344</color>
+    <color name="dingdan">#4566D3</color>
+    <color name="meijiashi">#D155D3</color>
+    <color name="dizhi">#FE4F4B</color>
+    <color name="pinck">#f7a8ed</color>
+    <color name="username">#ed864bd9</color>
+
+    //顶部导航栏用到的颜色
+    <color name="category_tab_text">#ff707070</color>
+    <color name="category_tab_text_dark">#fffafafa</color>
+    <color name="category_tab_highlight_text">#fffafafa</color>
+    <color name="category_tab_highlight_text_dark">#ffd43d3d</color>
+    <color name="category_tab_highlight_bg">#ffd43d3d</color>
+    <color name="category_tab_highlight_dark_bg">#fffafafa</color>
+    <color name="top_category_bar_background">#ffeeeeee</color>
+    <color name="divider">#ffdddddd</color>
+</resources>

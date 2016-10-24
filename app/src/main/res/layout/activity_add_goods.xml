@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroudcolor"
+    tools:context="com.qingyuan.tianya.merchant.activity.GoodsPicActivity">
+
+    <com.qingyuan.tianya.merchant.view.HeaderView
+        android:id="@+id/goods_add_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:middleText="添加商品"
+        app:rightText="保存"
+        app:middleTextSize="16sp"
+        >
+
+    </com.qingyuan.tianya.merchant.view.HeaderView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goods_add_head">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridView
+                android:id="@+id/gridView2"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:columnWidth="90dp"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:numColumns="4"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="5dp" />
+
+            <TextView
+                android:id="@+id/vie"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gridView2"
+                android:layout_marginLeft="8dp"
+                android:text="*可传1张商品图片"
+                android:textColor="#aaaaaa" />
+
+            <EditText
+                android:id="@+id/add_ed"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_below="@id/vie"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/searchview"
+                android:hint="商品名字"
+                android:paddingLeft="10dp"
+                android:textColor="@color/lightgray"
+                android:textColorHint="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/vie1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add_ed"
+                android:layout_margin="8dp"
+                android:text=" *需填写商品名字"
+                android:textColor="#aaaaaa" />
+
+            <EditText
+                android:id="@+id/goods_add_ed"
+                android:layout_width="100dp"
+                android:layout_height="42dp"
+                android:layout_below="@id/vie1"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/searchview"
+                android:hint="原价"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/lightgray"
+                android:textColorHint="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/vie2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/goods_add_ed"
+                android:layout_margin="8dp"
+                android:text=" *商品价格,单位：元"
+                android:textColor="#aaaaaa" />
+            <EditText
+                android:id="@+id/goods_add_box"
+                android:layout_width="100dp"
+                android:layout_height="42dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/vie1"
+                android:background="@drawable/searchview"
+                android:hint="餐盒费"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/lightgray"
+                android:textColorHint="@color/light_gray"/>
+            <TextView
+                android:id="@+id/view3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/goods_add_box"
+                android:layout_margin="8dp"
+                android:layout_alignParentRight="true"
+                android:text="*商品餐盒费,单位：元"
+                android:textColor="#aaaaaa" />
+
+            <EditText
+                android:id="@+id/add_hprice_ed"
+                android:layout_width="100dp"
+                android:layout_height="42dp"
+                android:layout_below="@id/vie2"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/searchview"
+                android:hint="会员价"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/lightgray"
+                android:textColorHint="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add_hprice_ed"
+                android:layout_margin="8dp"
+                android:text=" *单位:元,提供会员价服务的商家才可写入此项"
+                android:textColor="#aaaaaa" />
+
+            <!--<EditText-->
+            <!--android:id="@+id/add_remark_ed"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_below="@id/vie2"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:background="@drawable/searchview"-->
+            <!--android:gravity="top"-->
+            <!--android:hint="商品介绍"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:textColor="@color/lightgray"-->
+            <!--android:textColorHint="@color/light_gray" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/add_remark_ed"-->
+            <!--android:layout_margin="15dp"-->
+            <!--android:text="*商品介绍"-->
+            <!--android:textColor="@color/lightdark" />-->
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</RelativeLayout>
