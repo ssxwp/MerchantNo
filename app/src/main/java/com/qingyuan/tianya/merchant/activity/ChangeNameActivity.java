@@ -22,7 +22,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 
 public class ChangeNameActivity extends BaseActivity {
-//text
+//测试
     private String name;
     private HeaderView head;
     private EditText ed;
