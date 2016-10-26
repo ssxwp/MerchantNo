@@ -162,6 +162,7 @@ public class ChangeSortActivity extends BaseActivity implements AbstractSpinerAd
                     JSONObject jObj = new JSONObject(response.trim());
                     if (jObj.getString("flag").equals("success")) {
                         toast(jObj.getString("message"));
+                        finish();
                     } else {
                         toast(jObj.getString("message"));
                     }
@@ -194,7 +195,7 @@ public class ChangeSortActivity extends BaseActivity implements AbstractSpinerAd
                 break;
             case R.id.sort_two:
                 if (mListTwo.size()==0){
-                    toast("正在加载...");
+                    toast("请先选择一级分类");
                 }else {
                     showPopuWindow1(sp_two);
                 }
@@ -215,7 +216,7 @@ public class ChangeSortActivity extends BaseActivity implements AbstractSpinerAd
     @Override
     public void onItemClick(int pos) {
         sp_one.setText(mList.get(pos).getCate_name());
-        sp_two.setText("全部");
+        //sp_two.setText("全部");
         one_id = mList.get(pos).getCate_id();
         quTwo(one_id);
     }

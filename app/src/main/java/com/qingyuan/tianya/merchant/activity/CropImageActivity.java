@@ -83,13 +83,13 @@ public class CropImageActivity extends BaseActivity implements OnClickListener {
         try{
         	mBitmap = AbFileUtil.getBitmapFromSD(mFile,AbConstant.SCALEIMG,500,500);
             if(mBitmap==null){
-            	Toast.makeText(CropImageActivity.this, "没有找到图片", 0).show();
+            	Toast.makeText(CropImageActivity.this, "没有找到图片", Toast.LENGTH_SHORT).show();
     			finish();
             }else{
             	resetImageView(mBitmap);
             }
         }catch (Exception e) {
-        	Toast.makeText(CropImageActivity.this, "没有找到图片", 0).show();
+        	Toast.makeText(CropImageActivity.this, "没有找到图片", Toast.LENGTH_SHORT).show();
 			finish();
 		}
     }

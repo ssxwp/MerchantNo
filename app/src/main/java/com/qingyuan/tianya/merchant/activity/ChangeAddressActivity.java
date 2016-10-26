@@ -103,8 +103,9 @@ public class ChangeAddressActivity extends BaseActivity{
                     JSONObject jObj = new JSONObject(response.trim());
                     if (jObj.getString("flag").equals("success")) {
                         toast(jObj.getString("message"));
+                        finish();
                     } else {
-                        toast(jObj.getString("message"));
+                        toast("地址信息未修改");
                     }
 
                 } catch (JSONException e) {

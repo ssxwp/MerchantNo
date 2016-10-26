@@ -27,6 +27,7 @@ public class ChangeNameActivity extends BaseActivity {
     private HeaderView head;
     private EditText ed;
     private String m_id;
+    private String m_dddd;
     private AlertDialog dialog;
     @Override
     public void onCreate(Bundle savedInstanceState) {
