@@ -22,12 +22,12 @@ import org.json.JSONObject;
 import java.io.IOException;
 
 public class ChangeNameActivity extends BaseActivity {
-
+//text
     private String name;
     private HeaderView head;
     private EditText ed;
     private String m_id;
-    private String m_dddd;
+
     private AlertDialog dialog;
     @Override
     public void onCreate(Bundle savedInstanceState) {
